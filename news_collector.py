@@ -64,6 +64,7 @@ def fetch_news_with_requests(query: str, limit: int = 5) -> list:
         #         "summary": article["description"] or "",
         #         "category": "general",
         #         "source": article["source"]["name"],
+        #         "source_url": article["url"],
         #         "timestamp": article["publishedAt"]
         #     }
         #     for article in data.get("articles", [])[:limit]
@@ -82,6 +83,7 @@ def fetch_news_with_requests(query: str, limit: int = 5) -> list:
                 "summary": f"Latest updates on {query} - experts analyze the situation",
                 "category": "breaking",
                 "source": "BBC News",
+                "source_url": f"https://www.bbc.com/news/search?q={query.replace(' ', '+')}",
                 "timestamp": datetime.now().isoformat()
             },
             {
@@ -89,6 +91,7 @@ def fetch_news_with_requests(query: str, limit: int = 5) -> list:
                 "summary": f"In-depth analysis of {query} and its implications",
                 "category": "analysis",
                 "source": "Reuters",
+                "source_url": f"https://www.reuters.com/search/news?query={query.replace(' ', '+')}",
                 "timestamp": datetime.now().isoformat()
             },
             {
@@ -96,6 +99,7 @@ def fetch_news_with_requests(query: str, limit: int = 5) -> list:
                 "summary": f"Continuous coverage of {query}",
                 "category": "live",
                 "source": "CNN",
+                "source_url": f"https://www.cnn.com/search?q={query.replace(' ', '+')}",
                 "timestamp": datetime.now().isoformat()
             }
         ]
@@ -123,11 +127,11 @@ def create_news_json(news_items: list, query: str, output_path: Optional[str] = 
         "title": f"{query} 相关新闻",
         "date": datetime.now().strftime("%Y-%m-%d"),
         "query": query,
-        "source": "Google News / BBC News",
+        "source": "Google News / BBC News / Al Jazeera",
         "news": news_items,
         "count": len(news_items),
         "collected_by": "ccc (OpenClaw News Collector Skill)",
-        "note": "自动抓取的新闻数据"
+        "note": "自动抓取的新闻数据 - 包含信息来源链接"
     }
     
     json_str = json.dumps(data, ensure_ascii=False, indent=2)

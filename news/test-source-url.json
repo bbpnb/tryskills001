@@ -1,0 +1,27 @@
+{
+  "title": "test 相关新闻",
+  "date": "2026-03-07",
+  "query": "test",
+  "source": "Google News / BBC News / Al Jazeera",
+  "news": [
+    {
+      "headline": "Breaking: Major development in test",
+      "summary": "Latest updates on test - experts analyze the situation",
+      "category": "breaking",
+      "source": "BBC News",
+      "source_url": "https://www.bbc.com/news/search?q=test",
+      "timestamp": "2026-03-07T00:37:03.012933"
+    },
+    {
+      "headline": "Analysis: What test means for the future",
+      "summary": "In-depth analysis of test and its implications",
+      "category": "analysis",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/search/news?query=test",
+      "timestamp": "2026-03-07T00:37:03.012957"
+    }
+  ],
+  "count": 2,
+  "collected_by": "ccc (OpenClaw News Collector Skill)",
+  "note": "自动抓取的新闻数据 - 包含信息来源链接"
+}

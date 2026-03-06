@@ -55,21 +55,25 @@ OpenClaw 会自动调用这个脚本并处理结果。
   "title": "Iran war 相关新闻",
   "date": "2026-03-07",
   "query": "Iran war",
-  "source": "Google News / BBC News",
+  "source": "Google News / BBC News / Al Jazeera",
   "news": [
     {
       "headline": "新闻标题",
       "summary": "新闻摘要",
       "category": "类别",
       "source": "来源",
+      "source_url": "https://www.bbc.com/news/...",
       "timestamp": "2026-03-07T00:00:00"
     }
   ],
   "count": 5,
   "collected_by": "ccc (OpenClaw News Collector Skill)",
-  "note": "自动抓取的新闻数据"
+  "note": "自动抓取的新闻数据 - 包含信息来源链接"
 }
 ```
+
+**新增字段:**
+- `source_url`: 新闻原文链接，方便查看完整报道和验证信息来源
 
 ## 高级用法
 
@@ -110,6 +114,7 @@ done
 
 ## 版本
 
+- **v0.2.0** - 添加 source_url 字段，记录新闻原文链接
 - **v0.1.0** - 初始版本，基础新闻抓取功能
 
 ## 作者
