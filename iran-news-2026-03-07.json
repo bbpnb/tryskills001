@@ -1,0 +1,35 @@
+{
+  "title": "伊朗战争相关新闻",
+  "date": "2026-03-07",
+  "source": "BBC News Middle East",
+  "news": [
+    {
+      "headline": "Trump demands Iran's 'unconditional surrender' as Israel says it hit leadership bunker",
+      "summary": "特朗普要求伊朗'无条件投降'，以色列称其击中了领导层地堡",
+      "category": "breaking",
+      "live": true
+    },
+    {
+      "headline": "Iran school and nearby military base struck",
+      "summary": "伊朗一所学校和附近军事基地遭袭",
+      "category": "conflict"
+    },
+    {
+      "headline": "Israel-Iran war: What we know so far",
+      "summary": "以伊战争：目前已知情况汇总",
+      "category": "analysis"
+    },
+    {
+      "headline": "What is Iran's military capability?",
+      "summary": "伊朗军事能力如何？",
+      "category": "background"
+    },
+    {
+      "headline": "Middle East tensions days of strikes across the region",
+      "summary": "中东紧张局势：该地区连续多日遭袭",
+      "category": "regional"
+    }
+  ],
+  "collected_by": "ccc (OpenClaw)",
+  "note": "数据来源于 BBC 中东新闻页面截图"
+}
