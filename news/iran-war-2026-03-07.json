@@ -1,0 +1,46 @@
+{
+  "title": "伊朗战争相关新闻 - 2026 年 3 月 7 日",
+  "date": "2026-03-07",
+  "query": "Iran war Israel attack",
+  "source": "Al Jazeera",
+  "news": [
+    {
+      "headline": "Under cover of Iran war, Israeli settlers terrorise Palestinian villages",
+      "summary": "在伊朗战争的掩护下，以色列定居者恐吓巴勒斯坦村庄",
+      "category": "conflict",
+      "source": "Al Jazeera",
+      "timestamp": "2026-03-05T00:00:00"
+    },
+    {
+      "headline": "At odds with Europe: Why is Spain saying 'no' to US-Israeli war on Iran?",
+      "summary": "与欧洲分歧：西班牙为何反对美国 - 以色列对伊朗的战争？",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "timestamp": "2026-03-04T00:00:00"
+    },
+    {
+      "headline": "UN chief warns of Israeli-made humanitarian crisis",
+      "summary": "联合国秘书长警告以色列制造的人道主义危机",
+      "category": "international",
+      "source": "Al Jazeera",
+      "timestamp": "2026-03-07T00:00:00"
+    },
+    {
+      "headline": "Israel extending 'Gaza playbook' to West Bank",
+      "summary": "以色列将"加沙剧本"扩展到约旦河西岸",
+      "category": "conflict",
+      "source": "Al Jazeera",
+      "timestamp": "2026-03-07T00:00:00"
+    },
+    {
+      "headline": "What's the fallout from Israel's land grab?",
+      "summary": "以色列强占土地的后果是什么？",
+      "category": "analysis",
+      "source": "Al Jazeera",
+      "timestamp": "2026-03-07T00:00:00"
+    }
+  ],
+  "count": 5,
+  "collected_by": "ccc (OpenClaw News Collector Skill)",
+  "note": "通过浏览器抓取 Al Jazeera 中东冲突页面"
+}
