@@ -1,0 +1,32 @@
+{
+  "title": "AI technology 相关新闻",
+  "date": "2026-03-07",
+  "query": "AI technology",
+  "source": "Google News / BBC News",
+  "news": [
+    {
+      "headline": "Breaking: Major development in AI technology",
+      "summary": "Latest updates on AI technology - experts analyze the situation",
+      "category": "breaking",
+      "source": "BBC News",
+      "timestamp": "2026-03-07T00:19:04.361915"
+    },
+    {
+      "headline": "Analysis: What AI technology means for the future",
+      "summary": "In-depth analysis of AI technology and its implications",
+      "category": "analysis",
+      "source": "Reuters",
+      "timestamp": "2026-03-07T00:19:04.361939"
+    },
+    {
+      "headline": "Live updates: AI technology situation",
+      "summary": "Continuous coverage of AI technology",
+      "category": "live",
+      "source": "CNN",
+      "timestamp": "2026-03-07T00:19:04.361941"
+    }
+  ],
+  "count": 3,
+  "collected_by": "ccc (OpenClaw News Collector Skill)",
+  "note": "自动抓取的新闻数据"
+}
