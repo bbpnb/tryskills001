@@ -1,0 +1,51 @@
+{
+  "title": "伊朗战争最新新闻 - 2026 年 3 月 7 日",
+  "date": "2026-03-07",
+  "query": "Israel Iran conflict",
+  "source": "Al Jazeera",
+  "news": [
+    {
+      "headline": "Iranian UN ambassador condemns US-Israel 'criminal war'",
+      "summary": "伊朗驻联合国大使谴责美国 - 以色列的"犯罪战争"",
+      "category": "diplomacy",
+      "source": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/tag/israel-iran-conflict/",
+      "timestamp": "2026-03-07T08:00:00"
+    },
+    {
+      "headline": "Israeli airstrikes hit Iran, casualties reported",
+      "summary": "以色列空袭伊朗，造成人员伤亡",
+      "category": "conflict",
+      "source": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/tag/israel-iran-conflict/",
+      "timestamp": "2026-03-07T07:30:00"
+    },
+    {
+      "headline": "Video: Damage at Tehran school playground after Israeli strike",
+      "summary": "视频：以军空袭后德黑兰学校操场受损",
+      "category": "video",
+      "source": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/tag/israel-iran-conflict/",
+      "timestamp": "2026-03-07T06:00:00"
+    },
+    {
+      "headline": "Timeline: Israel-Iran conflict escalation",
+      "summary": "时间线：以色列 - 伊朗冲突升级过程",
+      "category": "analysis",
+      "source": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/tag/israel-iran-conflict/",
+      "timestamp": "2026-03-07T00:00:00"
+    },
+    {
+      "headline": "International community calls for ceasefire",
+      "summary": "国际社会呼吁停火",
+      "category": "international",
+      "source": "Al Jazeera",
+      "source_url": "https://www.aljazeera.com/tag/israel-iran-conflict/",
+      "timestamp": "2026-03-06T23:00:00"
+    }
+  ],
+  "count": 5,
+  "collected_by": "ccc (OpenClaw News Collector Skill)",
+  "note": "通过浏览器抓取 Al Jazeera 以色列 - 伊朗冲突专题页面"
+}
